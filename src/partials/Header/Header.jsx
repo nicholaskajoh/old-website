@@ -9,6 +9,7 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
+import avatar from "../../assets/img/me_v1.png";
 import "./Header.css";
 
 class Header extends Component {
@@ -28,9 +29,17 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="info" dark expand="md">
+        <Navbar color="light" light expand="md">
           <NavbarBrand tag={Link} to="/">
-            Nicholas Kajoh's
+            <h5 className="mb-0">
+              <img
+                className="rounded-circle"
+                style={{ width: 24, height: 24, marginBottom: 5 }}
+                src={avatar}
+                alt="My avatar"
+              />
+              &nbsp;Nick's
+            </h5>
           </NavbarBrand>
 
           <NavbarToggler onClick={this.toggleNavbar} />
@@ -91,7 +100,7 @@ class Header extends Component {
 
               <NavItem>
                 <RRNavLink
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-success"
                   to="http://bit.ly/resume-of-nicholas-v2018"
                   target="_blank"
                 >
