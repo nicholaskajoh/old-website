@@ -1,0 +1,21 @@
+body,
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+main {
+  margin: auto !important;
+  max-width: 600px;
+  text-align: center;
+  padding-top: 20px;
+}
