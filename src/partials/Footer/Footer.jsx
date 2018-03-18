@@ -47,7 +47,7 @@ const Footer = () => (
     </ul>
 
     <p>
-      Built with <i className="fa fa-heart text-danger" /> by{" "}
+      Built by{" "}
       <a
         href="https://twitter.com/nicholaskajoh"
         target="_blank"
@@ -55,8 +55,12 @@ const Footer = () => (
       >
         yours awesome
       </a>{" "}
-      using{" "}
-      <a href="https://www.getbootstrap.com" target="_blank" rel="noopener noreferrer">
+      with{" "}
+      <a
+        href="https://www.getbootstrap.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Bootstrap
       </a>{" "}
       and{" "}

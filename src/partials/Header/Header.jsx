@@ -29,16 +29,15 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="primary" dark expand="md">
           <NavbarBrand tag={Link} to="/">
             <h5 className="mb-0">
               <img
                 className="rounded-circle"
-                style={{ width: 24, height: 24, marginBottom: 5 }}
+                style={{ width: 32, height: 32 }}
                 src={avatar}
                 alt="My avatar"
               />
-              &nbsp;Nick's
             </h5>
           </NavbarBrand>
 
@@ -53,38 +52,32 @@ class Header extends Component {
               </NavItem>
 
               <NavItem>
-                <NavLink tag={RRNavLink} to="/work" activeClassName="active">
-                  Work
-                </NavLink>
-              </NavItem>
-
-              <NavItem>
                 <NavLink
                   tag={RRNavLink}
                   to="https://medium.com/@nicholaskajoh"
                   target="_blank"
                 >
-                  Blog-ish
+                  Blog
                 </NavLink>
               </NavItem>
 
               <NavItem>
                 <NavLink
                   tag={RRNavLink}
-                  to="/open-source"
+                  to="/projects"
                   activeClassName="active"
                 >
-                  Open Source
+                  Projects
                 </NavLink>
               </NavItem>
 
               <NavItem>
                 <NavLink
                   tag={RRNavLink}
-                  to="/talks-and-workshops"
+                  to="/speaking"
                   activeClassName="active"
                 >
-                  Talks and Workshops
+                  Speaking
                 </NavLink>
               </NavItem>
 
@@ -100,7 +93,7 @@ class Header extends Component {
 
               <NavItem>
                 <RRNavLink
-                  className="btn btn-outline-success"
+                  className="btn btn-outline-light"
                   to="http://bit.ly/resume-of-nicholas-v2018"
                   target="_blank"
                 >
