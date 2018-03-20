@@ -14,8 +14,7 @@ const Home = () => (
     <h4>Hello friend...</h4>
 
     <p>
-      I'm Nicholas Kajoh, a Backend Developer Intern at{" "}
-      <a href="https://trivoda.com">Trivoda</a>, Open Sourcerer, Technical
+      I'm Nicholas Kajoh, a Software Developer, Open Sourcerer, Technical
       writer, Community builder at{" "}
       <a href="https://medium.com/covenant-university-developers-community">
         Covenant University Developers' Community
