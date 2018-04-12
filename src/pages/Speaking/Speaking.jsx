@@ -3,6 +3,14 @@ import "./Speaking.css";
 
 const data = [
   {
+    id: 101,
+    title: "Building a recommendation engine using Machine Learning (Talk)",
+    description: `Learn how recommendation engines work and
+      build your own using Machine Learning (forLoop Bells, 2018).`,
+    icon: "fab fa-python",
+    links: [{ title: "See the slides", url: "http://bit.ly/reco-with-ml" }]
+  },
+  {
     id: 183,
     title: `Super-charge your Laravel development workflow
       with Continuous Integration and Deployment (Talk)`,
@@ -58,7 +66,11 @@ const Speaking = () => (
                 {e.links.map(link => {
                   return (
                     <li className="nav-item">
-                      <a className="nav-link pl-0" href={link.url} target="_blank">
+                      <a
+                        className="nav-link pl-0"
+                        href={link.url}
+                        target="_blank"
+                      >
                         {link.title}
                       </a>
                     </li>
