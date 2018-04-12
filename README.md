@@ -5,4 +5,7 @@ Visit https://nicholaskajoh.github.io.
 - Clone repo.
 - Run `npm install`.
 - Then, `npm start`.
-- Test with `npm test`. 
+- Test with `npm test`.
+
+## Deploy
+- Run `npm run deploy`.
