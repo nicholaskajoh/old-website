@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
-import avatar from "../../assets/img/me_v1.png";
+import avatar from "../../assets/img/me_v3.jpg";
 import "./Header.css";
 
 class Header extends Component {

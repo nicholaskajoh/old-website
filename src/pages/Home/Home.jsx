@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import avatar from "../../assets/img/me_v1.png";
+import avatar from "../../assets/img/me_v3.jpg";
 
 const Home = () => (
   <main>
@@ -11,16 +11,12 @@ const Home = () => (
       alt="My avatar"
     />
 
-    <h4>Hello friend...</h4>
+    <h4 class="mt-3">Hello friend...</h4>
 
     <p>
       I'm Nicholas Kajoh, a Software Developer, Open Sourcerer, Technical
-      writer, Community builder at{" "}
-      <a href="https://medium.com/covenant-university-developers-community">
-        Covenant University Developers' Community
-      </a>, Machine Learning & DevOps enthusiast, and Student at{" "}
-      <a href="http://www.covenantuniversity.edu.ng">Covenant University</a>.
-      Nice to meet you!
+      writer, Community builder and Machine Learning enthusiast. Nice to meet
+      you!
     </p>
   </main>
 );
