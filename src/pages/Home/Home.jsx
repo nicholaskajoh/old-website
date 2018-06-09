@@ -11,7 +11,7 @@ const Home = () => (
       alt="My avatar"
     />
 
-    <h4 class="mt-3">Hello friend...</h4>
+    <h4 className="mt-3">Hello friend...</h4>
 
     <p>
       I'm Nicholas Kajoh, a Software Developer, Open Sourcerer, Technical

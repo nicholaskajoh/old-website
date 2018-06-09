@@ -8,24 +8,18 @@ const data = [
     description: `Learn how recommendation engines work and
       build your own using Machine Learning (forLoop Bells, 2018).`,
     icon: "fab fa-python",
-    links: [{ title: "See the slides", url: "http://bit.ly/reco-with-ml" }]
-  },
-  {
-    id: 183,
-    title: `Super-charge your Laravel development workflow
-      with Continuous Integration and Deployment (Talk)`,
-    description: `They say move fast & break things. What if I told
-      you that you could move fast without even breaking a sweat?
-      CI/CD provides a superb workflow for building modern apps.
-      Learn how to create a complete delivery pipeline that ensures
-      speed, security, scalability & encourages collaboration.`,
-    icon: "fab fa-laravel",
-    links: []
+    links: [
+      {
+        id: 1,
+        title: "See the slides",
+        url: "http://bit.ly/reco-with-ml",
+      }
+    ]
   },
   {
     id: 182,
     title:
-      "Git and GitHub: a workflow for modern software development (Workshop)",
+      "Git + GitHub (Workshop)",
     description: "An introduction to version control using Git and GitHub.",
     icon: "fab fa-github",
     links: []
@@ -45,7 +39,7 @@ const data = [
       "Learn how MVC works and open your window to the world of modern web frameworks.",
     icon: "fa fa-rocket",
     links: []
-  }
+  },
 ];
 
 const Speaking = () => (
@@ -65,7 +59,7 @@ const Speaking = () => (
               <ul className="nav">
                 {e.links.map(link => {
                   return (
-                    <li className="nav-item">
+                    <li className="nav-item" key={link.id}>
                       <a
                         className="nav-link pl-0"
                         href={link.url}
